@@ -7,7 +7,7 @@ export default class RandomColor extends Component {
   };
 
   selectColor = () => {
-    const colors = ['red', 'green', 'black', 'yellow', 'purple', 'grey', 'pink', 'brown', 'blue'];
+    const colors = ['red', 'green', 'black', 'yellow', 'purple', 'grey', 'pink', 'brown', 'blue', 'lavender', 'thistle', 'magenta', 'darkorchid', 'indigo', 'mediumpurple', 'lightcoral', 'peachpuff', 'darkseagreen', 'seagreen', 'darkturquoise', 'darkcyan', 'steelblue', 'hotpink', 'mistyrose', 'maroon'];
     const random = Math.floor(Math.random() * colors.length);
     this.setState({ backgroundColor: colors[random] });
   };
