@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorPicker component renders ColorPicker 1`] = `
+<Fragment>
+  <button
+    key="red"
+    onClick={[Function]}
+  >
+    red
+  </button>
+  <button
+    key="green"
+    onClick={[Function]}
+  >
+    green
+  </button>
+  <button
+    key="black"
+    onClick={[Function]}
+  >
+    black
+  </button>
+  <button
+    key="yellow"
+    onClick={[Function]}
+  >
+    yellow
+  </button>
+</Fragment>
+`;
